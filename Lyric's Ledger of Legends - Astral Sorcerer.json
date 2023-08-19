@@ -1,0 +1,251 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "LyricsLedgerOfLegends",
+				"abbreviation": "LLoL",
+				"full": "Lyric's Ledger of Legends",
+				"url": "https://glamouredglade.itch.io/lyrics-ledger-of-legends",
+				"authors": [
+					"Tim Ashley Jenkins",
+					"Zack Morrison"
+				],
+				"convertedBy": [
+					":3jörn Mårtensson"
+				],
+				"color": "#ceb85e",
+				"version": "1.1"
+			}
+		],
+		"dateAdded": 1689472514
+    },
+	"subclass": [
+		{
+			"name": "Sorcerer: Astral Dreamer",
+			"source": "LyricsLedgerOfLegends",
+			"page": 22,
+			"shortName": "Astral Dreamer",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSpells": [
+				"featherfall",
+				"sleep",
+				"calm emotions",
+				"levitate",
+				"fly",
+				"hypnotic pattern",
+				"arcane eye",
+				"phantasmal killer",
+				"contact other plane",
+				"dream"
+			],
+			"subclassFeatures": [
+				"Astral Dreamer|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|1",
+				"Dream Trance|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|6",
+				"Wave of Lethargy|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|6",
+				"Dreamscape Domain|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|14",
+				"Astral Dream Trance|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Astral Dreamer",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 22,
+			"level": 1,
+			"entries": [
+				"Your innate magic comes from a connection to the Astral Plane, the great expanse between realms ruled by thought. What others spend decades of study to glimpse, traverse and control, you intuit in your sleep. Your dreams share the plane's strange physics, and may even overlap with some far-flung region of its void. As you explore the depths of your own mind, you learn to project its wonders out into the world, blurring and reshaping your reality. No subconscious is beyond the reach of your hypnotic magic's sway.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Astral Spells|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Waking Dreamer|Sorcerer||Astral Dreamer|LyricsLedgerOfLegends|1"
+				}
+			]
+		},
+		{
+			"name": "Astral Spells",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 22,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"Starting at 1st level, your magic is touched by the hypnagogic wonder of the Astral Plane. You learn extra spells when you reach certain levels as a sorcerer, as shown on the Astral Spells table below. Each spell counts as a sorcerer spell for you, but doesn’t count against the number of sorcerer spells you know.",
+				"Whenever you gain a sorcerer level, you can replace one spell you learned from this feature with a different spell of the same level. This new spell must be an enchantment or illusion spell from the sorcerer, warlock, or wizard spell list.",
+				{
+					"type": "table",
+					"caption": "Astral Spells",
+					"colLabels": [
+						"Sorcerer Level",
+						"Spell"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10 text- "
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell featherfall}, {@spell sleep}"
+						],
+						[
+							"3rd",
+							"{@spell calm emotions}, {@spell levitate}"
+						],
+						[
+							"5th",
+							"{@spell fly}, {@spell hypnotic pattern}"
+						],
+						[
+							"7th",
+							"{@spell arcane eye}, {@spell phantasmal killer}"
+						],
+						[
+							"9th",
+							"{@spell contact other plane}, {@spell dream}"
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Waking Dreamer",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 23,
+			"level": 1,
+			"header": 1,
+			"entries": [
+				"At 1st level, you travel freely in the murky realm of dreams. Magic can't put you to sleep against your will. If your race can't or doesn't need to sleep or dream, you can choose to do so regardless. This has no effect on the amount of time you need to spend to gain the benefits of a long rest.",
+				"Whenever you finish a long rest during which you slept, you gain one of the following benefits of your choice:",
+				{
+					"type": "entries",
+					"name": "Dream Echo",
+					"entries": [
+						"You carry talents from the life you lived in your dreams back with you to reality. Choose one skill or tool with which you lack proficiency. You gain proficiency with the chosen skill or tool until the next time you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nightmare Dive",
+					"entries": [
+						"You plumb your nightmares for dark power, making half-remembered deals with things you've dreamt. Choose one conjuration or necromancy spell from the warlock spell list, which must be of a level you can cast as a sorcerer. You learn the spell, which counts as a sorcerer spell for you, until the next time you finish a long rest. This spell doesn't count against the number of sorcerer spells you know."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Restful Slumber",
+					"entries": [
+						"You spend your rest surrendered to a soothing void or joyful, healing dreams. You can remove an additional level of exhaustion, if you have any, and you awaken with a number of temporary hit points equal to 1d10 + your sorcerer level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dream Trance",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 23,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Starting at 6th level, you can briefly escape your own mind using an instinctive, sorcerous form of astral projection. As an action, you can enter a sleep-like trance, allowing you to project your dreaming self into the waking world. Your trance lasts for 1 minute or until you lose concentration (as if you were concentrating on a spell). While you are in this trance, your speed is 0 and can't be increased, and you are blinded and deafened to your own surroundings.",
+				"The ghostly image of your dreaming self appears tethered to you in an unoccupied space you can see within 100 feet of you. You decide your dreaming self's voice and appearance, which may or may not resemble your own, though it is always wispy and intangible. While you are in your trance, you can speak, see, and hear through your dreaming self, which shares any special senses you have, such as darkvision.",
+				"On your turn, you can move your dreaming self up to 20 feet, including into the air and through creatures and objects, but you take 5 psychic damage if you end your turn with your dreaming self inside an object. Your dreaming self is tethered to you by an intangible, silvery cord, preventing it from moving more than 100 feet away from you. If you are moved further than 100 feet away from your dreaming self, the cord is severed, ending your trance.",
+				"When you cast a spell while in your trance, you can choose to cast it as though you were in your dreaming self's space. After you cast a spell in this way, your trance immediately ends.",
+				"When your trance ends, your dreaming self disappears.",
+				"You can't use this feature while in the form of an astral body as a result of the astral projection spell or a similar effect.",
+				"Once you use this feature to enter a trance, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Wave of Lethargy",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 24,
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Also at 6th level, you can pull others beneath the waters of their waking minds, draining their energy and dragging them down towards slumber. As an action, you can force each creature in a 30 foot cone originating from you to make a Constitution saving throw against your sorcerer spell save DC. On a failed save, a creature falls prone and can't stand up to end the condition until the start of your next turn. Creatures immune to exhaustion are immune to this effect.",
+				"Once you use this feature, you can't use it again until you finish a long rest, unless you spend 3 sorcery points to use it again."
+			]
+		},
+		{
+			"name": "Dreamscape Domain",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 24,
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"Starting at 14th level, the floodgates at the threshold of your mind fall under your complete control. As an action, you can spill forth dreamstuff from your mind into reality, filling a 100-foot cube centered on you. This dreamscape doesn't move with you. For the duration, you can control the area within as if it was a lucid dream, resulting in the following effects:",
+				{
+					"type": "entries",
+					"name": "Astral Flight",
+					"entries": [
+						"While in the dreamscape, you and your allies have a flying speed of 30 feet and can hover. You fall if you leave the dreamscape and nothing else is holding you aloft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Illusory Terrain",
+					"entries": [
+						"You decide your dreamscape's appearance, filling it with shifting, translucent illusory terrain. While in the dreamscape, you and your allies are lightly obscured to your enemies. As a bonus action while in the dreamscape, you can will your domain to become more real, turning your dreamscape into difficult terrain for your enemies until the start of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nightmare Strike",
+					"entries": [
+						"Nightmares take fleeting form to strike your foes. As a bonus action while in the dreamscape, you can make a melee spell attack against one creature you can see in your dreamscape. If the attack hits, the target takes psychic damage equal to 3d10 + your Charisma modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shield the Dreaming",
+					"entries": [
+						"Dreamstuff solidifies to protect you or your allies at a thought. As a bonus action while in the dreamscape, you can grant one creature in your dreamscape that you can see half cover until the start of your next turn. A creature loses this benefit early if it leaves your dreamscape."
+					]
+				},
+				"Your dreamscape lasts for 1 minute or until you lose concentration (as if you were concentrating on a spell). Once you have used this feature, you can't use it again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Astral Dream Trance",
+			"source": "LyricsLedgerOfLegends",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"subclassSource": "LyricsLedgerOfLegends",
+			"subclassShortName": "Astral Dreamer",
+			"page": 24,
+			"level": 18,
+			"header": 2,
+			"entries": [
+				"Starting at 18th level, you can abandon your body to soar across the plane that grants you power, guiding your allies on endless adventures through the void. You learn the astral projection spell, which counts as a sorcerer spell for you, and can cast it without material components. While on the Astral Plane in the form of your astral body, you can choose your astral body's voice and appearance and change either as an action, and you have a flying speed equal to 3 times your Charisma score. Changing your appearance doesn't change your game statistics."
+			]
+		}
+	]
+}
