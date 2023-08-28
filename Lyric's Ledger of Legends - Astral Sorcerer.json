@@ -28,7 +28,7 @@
 			"className": "Sorcerer",
 			"classSource": "PHB",
 			"subclassSpells": [
-				"featherfall",
+				"feather fall",
 				"sleep",
 				"calm emotions",
 				"levitate",
@@ -97,7 +97,7 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell featherfall}, {@spell sleep}"
+							"{@spell feather fall}, {@spell sleep}"
 						],
 						[
 							"3rd",
